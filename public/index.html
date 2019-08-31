@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assist Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./utils/webcam.min.js"></script>
+    <script src="./bower_components/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" href="./scripts/index.css">
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/download.js"></script>
+    <script src="./scripts/routes.js"></script>
+    <script src="./scripts/socket.js"></script>
+    <script src="./scripts/model.js"></script>
+    <script src="./scripts/controller.js"></script>
+</head>
+
+<body ng-app="myapp" ng-controller="myappcontroller">
+    <header id="header">
+        <div class="container">
+            <div class="row jfc">
+                <div class="images">
+                    <h1>Assist Me</h1>
+                </div>
+                <div class="row jfc">
+                    <a class="btn btn-outline-primary mr btnheight" ng-href="#/">Home</a>
+                    <!-- <a class="btn btn-outline-danger mr btnheight" ng-href="#Ebook">Ebook</a> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content">
+        <ng-view></ng-view>
+    </div>
+</body>
+
+</html>

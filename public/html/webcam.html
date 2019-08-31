@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="alert alert-error ng-scope" ng-show="webcamError"></div>
+    <div class="row jfc btc">
+        <div class="bdr">
+            <webcam channel="channel" on-streaming="onSuccess()" on-error="onError(err)" on-stream="onStream(stream)">
+            </webcam>
+        </div>
+        <canvas id="snapshot" width="300" height="300"></canvas>
+    </div>
+</div>
+<div class="nht">
+    <button class="btn btn-outline-danger" ng-click="makeSnapshot()">Image Narration</button>
+    <button class="btn btn-outline-primary" ng-click="makeSnapshot('ocr')">Image OCR</button>
+    <button class="btn btn-outline-success" ng-click="makeSnapshot('fr')">Face Recognition</button>
+
+</div>

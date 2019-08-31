@@ -1,0 +1,41 @@
+body{
+    background: url("../images/back.jpg") no-repeat 0px 0px;
+    /* background-size: cover; */
+}
+.jfc{
+    justify-content: space-between;
+}
+.bdr{
+    border: 12px black solid;
+}
+.mr{
+    margin: 0px 15px;
+}
+#header{
+    padding: 20px 0px;
+}
+.btnheight{
+    height: 50px;
+}
+.nht{
+    text-align: center;
+    padding: 50px;
+}
+.ct{
+    text-align: center;
+    padding: 10% 0px 0px 0px;
+    height: 400px;
+}
+.btnsize{
+    width: 50%;
+    font-size: 80px;
+    height: 70%;
+}
+.images h1{
+    font: 60px Tahoma, Helvetica, Arial, Sans-Serif;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
+}
+.pd{
+    padding-right:30px; 
+}
